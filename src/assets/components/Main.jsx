@@ -22,7 +22,7 @@ export default function Main(){
 
         <div className='main'>
             <div className='my-photo'>
-                <img src='./prasad_photo.jpeg'/>
+                <img src='./prasad_photo.jpeg' alt='prasad'/>
             </div>
 
             <div className='main'>

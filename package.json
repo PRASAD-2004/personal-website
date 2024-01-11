@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://PRASAD-2004.github.io/my_personal_webpage",
+  "homepage": "https://prasad-2004.github.io/my_personal_webpage",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

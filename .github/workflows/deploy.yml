@@ -44,6 +44,10 @@ jobs:
           name: production-files
           path: ./dist
 
+      - name: Set MIME type for JavaScript files
+        run: |
+          find ./dist -type f -name "*.js" -exec bash -c 'echo "text/javascript" > "$0"' {} \;
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

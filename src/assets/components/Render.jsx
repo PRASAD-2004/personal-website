@@ -20,4 +20,5 @@ export default [
         href:"https://web.whatsapp.com/",
         src:"./whatsapp.svg"
     }
+
 ]

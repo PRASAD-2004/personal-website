@@ -29,7 +29,7 @@ export default function Main(){
                 <div className='describe'>
                     <p className='name-firstline'>Hi,I'm</p>
                     <p  className='name'>Murakundla prasad</p>
-                    <p>I'm a professional web developer.Our main goal is to help and satisfy the local and global clients by web development solutions</p>
+                    <p>Motivated computer science student skilled in problem-solving, web development, and data structures. Proficient in Python, Java, C, with experience in Tableau dashboard building. Eager to apply technical skills and learn in a dynamic role</p>
 
                     <div className='links'>
                         {cards}

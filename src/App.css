@@ -9,6 +9,7 @@ nav{
   justify-content: space-between;
   background-color: rgb(37, 32, 32);
   overflow: hidden;
+  cursor: pointer;
 
 }
 
@@ -28,8 +29,9 @@ li{
   display: flex;
   flex: 1;
   flex-direction: row;
-  height: 100vh;
-
+  height: 500px;
+  padding-top: 40px;
+  margin-bottom: 100px;
 }
 
 .my-photo{
@@ -90,3 +92,164 @@ img{
   display: flex;
   flex-direction: row;
 }
+
+.skills-section {
+  padding: 20px;
+  background-color:  rgb(255, 230, 169);
+  border-radius: 8px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.skills-heading {
+  text-align: center;
+  color: black;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.technical-skills {
+  display: flex;
+  flex: 2;
+  gap: 20px;
+}
+
+.skills-list {
+  background-color: grey;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  flex: 1;
+}
+
+.skills-list h2 {
+  color: black;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.skills-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background-color:white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #444;
+  transition: all 0.3s ease;
+}
+
+.skills-list li:hover {
+  background-color: #cdf4f9;
+  transform: scale(1.05);
+}
+
+.personal-skills {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+      flex-direction: column;
+  }
+
+  .technical-skills {
+      flex-direction: column;
+  }
+}
+
+.portfolio-section {
+  padding: 20px;
+  background-color: rgb(255, 230, 169);
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.portfolio-heading {
+  text-align: center;
+  color: black;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: grey  ;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h2 {
+  color: black;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: black;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.project-card a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+
+.contact-section {
+  padding: 20px;
+  background-color:grey;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.contact-heading {
+  color: black;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  font-size: 1.2rem;
+  line-height: 2;
+  color: black;
+}
+
+.contact-info a {
+  color: black;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
